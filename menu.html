@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Utama - Salonku</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffe3f4;
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar {
+            background-color: #e7008a;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #ffccdf;
+            color: #e7008a;
+            padding: 50px 20px;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+        .btn-pink {
+            background-color: #e7008a;
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-pink:hover {
+            background-color: #ff8abf;
+            color: #fff;
+        }
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .card-img-top {
+            border-radius: 15px 15px 0 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #e7008a;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Salonku</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.html">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="hero">
+            <h1>Selamat Datang di Salonku</h1>
+            <p>Tingkatkan pesona Anda dengan layanan kami yang berkelas dan profesional.</p>
+            <a href="#layanan" class="btn btn-pink mt-3">Lihat Layanan</a>
+        </div>
+        <h2 id="layanan" class="text-center text-pink mb-4">Layanan Kami</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="asset/hair.png" class="card-img-top" alt="Haircut">
+                    <div class="card-body">
+                        <h5 class="card-title">Gaya Rambut</h5>
+                        <p class="card-text">Dapatkan gaya rambut terbaik sesuai kepribadian Anda.</p>
+                        <a href="#" class="btn btn-pink">Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="asset/skin.png" class="card-img-top" alt="Skincare">
+                    <div class="card-body">
+                        <h5 class="card-title">Perawatan Kulit</h5>
+                        <p class="card-text">Nikmati perawatan kulit menyeluruh untuk kecantikan Anda.</p>
+                        <a href="#" class="btn btn-pink">Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="asset/nail.png" class="card-img-top" alt="Nailcare">
+                    <div class="card-body">
+                        <h5 class="card-title">Perawatan Kuku</h5>
+                        <p class="card-text">Jadikan kuku Anda sehat dan indah dengan layanan kami.</p>
+                        <a href="#" class="btn btn-pink">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center bg-pink py-3 mt-4">
+        &copy; Copyright by 22552011091_Rismanda Fauziah_TIF22PC
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
